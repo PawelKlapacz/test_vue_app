@@ -1,0 +1,28 @@
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+body {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+  background-color: rgb(233, 233, 233);
+  place-items: top;
+}
+
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+
+
+  }
+
+  #app {
+    padding: 0 2rem;
+  }
+}
